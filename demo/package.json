@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "testing sheep-engine library",
   "main": "index.js",
+  "source":true,
   "dependencies": {
     "sheep-engine": "0.0.1"
   },
@@ -10,5 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nagarajan <oneto018@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "sheep-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Very friendly 2d game engine",
   "main": "./dist/SheepEngine.cjs",
   "type": "module",
@@ -9,6 +9,7 @@
   "module": "dist/SheepEngine.module.js",
   "umd:main": "dist/SheepEngine.umd.js",
   "exports": "./dist/SheepEngine.modern.js",
+  "files": ["dist/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle src/*.js",

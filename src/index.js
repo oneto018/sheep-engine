@@ -8,7 +8,7 @@ function delay(time){
 }
 
 export async function test1(){
-    console.log('first ====> ', new Date());
+    console.log('first ====>)(((000000|=<==', new Date());
     const t =  await delay(3000);
     console.log('after 3 seconds',t);
     const t2 = await delay(4000);
@@ -17,5 +17,5 @@ export async function test1(){
 
 export async function loadBox2d(){
     const box2d = await Box2DFactory();
-    console.log('box2d loaded---->',box2d);
+    console.log('box2d loaded----<><>',box2d);
 }
