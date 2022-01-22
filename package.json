@@ -1,0 +1,26 @@
+{
+  "name": "sheep-engine",
+  "version": "0.0.1",
+  "description": "Very friendly 2d game engine",
+  "main": "./dist/SheepEngine.cjs",
+  "type": "module",
+  "source": "src/index.js",
+  "unpkg": "dist/SheepEngine.min.js",
+  "module": "dist/SheepEngine.module.js",
+  "umd:main": "dist/SheepEngine.umd.js",
+  "exports": "./dist/SheepEngine.modern.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle src/*.js",
+    "start": "microbundle watch src/*.js"
+  },
+  "author": "Nagarajan N <oneto018@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  },
+  "dependencies": {
+    "box2d-wasm": "^7.0.0",
+    "pixi.js-legacy": "^6.2.1"
+  }
+}
