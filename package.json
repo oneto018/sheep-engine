@@ -1,11 +1,11 @@
 {
   "name": "sheep-engine",
-  "version": "0.0.2",
+  "version": "0.0.2-patch",
   "description": "Very friendly 2d game engine",
   "main": "./dist/SheepEngine.cjs",
   "type": "module",
   "source": "src/index.js",
-  "unpkg": "dist/SheepEngine.min.js",
+  "unpkg": "dist/SheepEngine.umd.js",
   "module": "dist/SheepEngine.module.js",
   "umd:main": "dist/SheepEngine.umd.js",
   "exports": "./dist/SheepEngine.modern.js",
