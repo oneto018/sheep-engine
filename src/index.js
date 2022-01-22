@@ -16,6 +16,9 @@ export async function test1(){
 }
 
 export async function loadBox2d(){
-    const box2d = await Box2DFactory();
+    const box2d = await Box2DFactory({
+        locateFile: (url) =>
+          `https://cdn.jsdelivr.net/npm/box2d-wasm@7.0.0/dist/es/${url}`
+    });
     console.log('box2d loaded----<><>',box2d);
 }

@@ -1,6 +1,6 @@
 {
   "name": "sheep-engine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Very friendly 2d game engine",
   "main": "./dist/SheepEngine.cjs",
   "type": "module",
