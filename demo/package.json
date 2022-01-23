@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "testing sheep-engine library",
   "main": "index.js",
-  "source":true,
+  "source": true,
   "dependencies": {
     "sheep-engine": "0.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html ../src/index.js"
   },
   "author": "Nagarajan <oneto018@gmail.com>",
   "license": "ISC",
