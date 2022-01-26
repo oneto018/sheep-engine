@@ -1,5 +1,6 @@
 import { box2d, loadBox2d } from "./Physics";
 import { game } from "./Graphics/game";
+import { node, circle, rectangle, square } from "./Node";
 
 function delay(time) {
   return new Promise((res, rej) => {
@@ -15,4 +16,4 @@ export async function test1() {
   console.log("after 4 s", t2);
 }
 
-export { box2d, loadBox2d, game };
+export { box2d, loadBox2d, game, node, circle, rectangle, square };
